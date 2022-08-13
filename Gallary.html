@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Gallary</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+	<style type="text/css">
+
+	header{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+		img{
+			background-color: lightblue;
+			width: 400px;
+			height: 300px;
+			margin: 5px 20px 5px 10px;
+			display: inline-block;
+			/*position: fixed;*/
+			align-content: center;
+			transition: all 1s;
+		}
+		img:hover{
+			transform: scale(1.2);
+		}
+	body{
+	background: rgba(0, 0, 0, 0.6) url('12.jpg') center fixed;
+	background-size: cover;
+	color: white;
+	background-blend-mode: darken;
+		}
+		header{
+	margin: 0px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	list-style: none;
+}
+header span{
+	color: orange;
+}
+
+nav ul li{
+	display: inline-block;
+	padding: 15px;
+}
+a{
+	color: white;
+	text-decoration: none;
+	font-size: 15px;
+	font-weight: 900;
+}
+.reservation{
+	display: inline-block;
+	background: orange;
+	border-radius: 10px;
+}
+
+nav ul li a:hover{
+	font-size: 30px;
+	background: yellow;
+	color: red;
+	transition: 1s;
+
+		}
+	</style>
+</head>
+<body>
+   
+
+	<header>
+		<h1 class="head1">AFGHAN<span>FOODS </span>-Gallary</h1>
+		<h1 align="center"> G-Menu</h1>
+		   <nav>
+		   	   <ul>
+		   	   	   <li><a href="Home.html">HOME</a></li>
+		   	   	   <li><a href="Menu.html">MENU</a></li>
+		   	   	   <li><a href="Gallary.html">GALLERY</a></li>
+		   	   	   <li><a href="About.html">ABOUT</a></li>
+		   	   	   <li><a href="Contact.html">CONTACT</a></li>
+		   	   	  <div class="reservation">
+		   	   	   <li><a href="index.html">RESERVATION</a></li>
+		   	      </div>
+		   	   </ul>
+		   </nav>
+	</header>
+   <h1 align="center ">This is Our Pictures Gallary!</h1>
+    <img src="2.jpg">
+    <img src="4.jpg">
+    <img src="5.jpg">
+    <img src="6.jpg">
+    <img src="7.jpg">
+    <img src="8.jpg">
+    <img src="9.jpg">
+
+</body>
+</html>
